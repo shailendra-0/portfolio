@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shailendra cheruku | web developer</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="assests/css/styles.css">
+    <!-- favicons -->
+    <link rel="icon" href="assests/icons/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <h1>CHERUKU SHAILENDRA</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About me</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+        
+    </nav>
+    <!-- hero section -->
+    <section class="hero" id="about">
+        <img src="assests/images/img1.svg" alt=""
+        loading="lazy"
+        class="hero-img">
+        <div class="bio">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hey, I'm Shailendra Cheruku – a web developer, hoops enthusiast, and explorer. Currently, a fourth-year undergrad at IIEST, Shibpur. Let's shape the digital world together.
+          </p>
+        </div>
+    </section>
+    <!-- more about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Hey there, I'm Shailendra Cheruku – a passionate fourth-year undergraduate from IIEST, Shibpur, on an exciting journey through the realm of web development. I've already woven digital magic by creating a stellar website for a company.
+         When I'm not immersed in code, you'll find me on the basketball court or hitting the gym, because staying active fuels my creative mind.
+      </p>
+      <p>
+        Movies and exploration are my other escapes. I dive into captivating stories on screen and embark on adventures to new places whenever I can.
+         In a world that's constantly evolving, I'm always seeking fresh domains to conquer, keeping myself at the forefront of innovation.
+      </p>
+      <p>
+        Welcome to my digital space where coding meets creativity. Let's build the future together.
+      </p>
+
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assests/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assests/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+         
+          <img
+            src="assests/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assests/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          
+        </div>
+      </div>
+    </section>
+    <!-- project section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assests/images/grevelops.png"
+            alt="grevelops site"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Grevelops official site</h3>
+          <p class="project-details">
+            
+            During my internship at Grevelops, I served as a Front-End Developer, creating a dynamic website using HTML, CSS, JavaScript, and React. 
+           
+             
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assests/images/portfolio.png"
+            alt="personal site"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Portfolio</h3>
+          <p class="project-details">
+            While learning web development, i designed a small portfolio.
+            using css and html.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <!-- contact me -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xaygejog" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- social accounts -->
+    <div class="socials">
+      <a href="https://twitter.com/Shailendracher1" target="_blank"
+        ><img
+          src="assests/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/shailendra_cheruku/" target="_blank"
+        ><img
+          src="assests/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assests/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/shailendra-0" target="_blank"
+        ><img src="assests/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+    
+    <!-- footer section -->
+    
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        With &#x2661; by
+        <a href="https://twitter.com/Shailendracher1" target="_blank"
+          >cheruku shailendra</a
+        >
+      </p>
+</footer>
+    <!-- website scripts -->
+    <script src="assests/js/app,js"></script>
+    
+</body>
+</html>
